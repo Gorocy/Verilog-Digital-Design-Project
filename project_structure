@@ -1,0 +1,38 @@
+digital_circuits/
+├── src/
+│   ├── arithmetic/
+│   │   ├── adder.v
+│   │   ├── subtractor.v
+│   │   ├── incrementor.v
+│   │   └── decrementor.v
+│   ├── converters/
+│   │   ├── two_complement.v
+│   │   ├── bcd_to_7seg.v
+│   │   ├── hex_to_7seg.v
+│   │   ├── bcd_to_gray.v
+│   │   └── gray_to_bcd.v
+│   └── logic/
+│       ├── parity_generator.v
+│       ├── decoder_1of8_to_bcd.v
+│       ├── demux_1_to_n.v
+│       └── mux_n_to_1.v
+├── tb/
+│   ├── arithmetic/
+│   │   ├── adder_tb.v
+│   │   ├── subtractor_tb.v
+│   │   ├── incrementor_tb.v
+│   │   └── decrementor_tb.v
+│   ├── converters/
+│   │   ├── two_complement_tb.v
+│   │   ├── bcd_to_7seg_tb.v
+│   │   ├── hex_to_7seg_tb.v
+│   │   ├── bcd_to_gray_tb.v
+│   │   └── gray_to_bcd_tb.v
+│   └── logic/
+│       ├── parity_generator_tb.v
+│       ├── decoder_1of8_to_bcd_tb.v
+│       ├── demux_1_to_n_tb.v
+│       └── mux_n_to_1_tb.v
+├── sim/
+├── Makefile
+└── README.md 
