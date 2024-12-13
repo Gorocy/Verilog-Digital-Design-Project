@@ -1,0 +1,33 @@
+# Simulation directory
+sim/
+
+# VCD files (waveforms)
+*.vcd
+
+# Icarus Verilog compiled files
+*.out
+*.vvp
+
+# Backup files
+*~
+*.bak
+
+# Log files
+*.log
+
+# GTKWave save files
+*.gtkw
+
+# OS specific files
+.DS_Store
+.directory
+.Trash-*
+
+# Editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
